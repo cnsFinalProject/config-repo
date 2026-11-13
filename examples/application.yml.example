@@ -1,0 +1,4 @@
+# 설정 형식 작성 예. 사용 프레임워크 확정 후 조정합니다.
+logging:
+  level:
+    root: INFO

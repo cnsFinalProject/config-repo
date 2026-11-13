@@ -1,0 +1,6 @@
+# Spring Boot 채택 시 사용할 수 있는 예시이며 자동 적용되지 않습니다.
+spring:
+  application:
+    name: backend
+server:
+  port: ${APP_PORT:8080}

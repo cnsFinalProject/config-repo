@@ -1,0 +1,6 @@
+# local 환경 예시. DB 및 드라이버 확정 후 설정을 완성합니다.
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
