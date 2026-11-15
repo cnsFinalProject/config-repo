@@ -1,0 +1,25 @@
+name: 기획·설계 결정
+description: 기획이나 기술 선택이 바뀌거나 정해야 할 때 등록합니다
+title: "[결정] 요약"
+labels: ["decision"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 정할 것
+      placeholder: "LLM을 Ollama(로컬)로 갈지 외부 API로 갈지"
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: 선택지와 쟁점
+  - type: input
+    id: owner
+    attributes:
+      label: 결정자 (팀 / 멘토)
+  - type: textarea
+    id: result
+    attributes:
+      label: 결정 결과
+      description: 정해지면 채우고 docs/project-context.md 와 docs/decisions/ 에 반영합니다
